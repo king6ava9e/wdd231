@@ -363,6 +363,20 @@ figcaption{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* color scheme for the display course
+/* Add to hompage_small.css or homepage_large.css */
+.completed {
+    background-color: #C5A100; /* gold */
+    color: #121212;
+    border-radius: 5px;
+}
+.not-completed {
+    background-color: #D1D1D1; /* light gray */
+    color: #121212;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
 /********* media query for it *************/
 @media (min-width: 400px) {
     #currentyear,#lastModified{

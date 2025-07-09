@@ -94,3 +94,32 @@ hamburgerButton.addEventListener("click", () =>{
     hamburgerButton.classList.toggle("show");
     navBar.classList.toggle("show");
 });
+
+// script for dynamic view of courses
+// ...existing code...
+
+function renderCourses(filter = "ALL") {
+    let filteredCourses = courses;
+    if (filter === "CSE") filteredCourses = courses.filter(c => c.subject === "CSE");
+    if (filter === "WDD") filteredCourses = courses.filter(c => c.subject === "WDD");
+
+    const courseDetails = document.getElementById("courseDetails");
+    courseDetails.innerHTML = filteredCourses.map(course => `
+        <p class="course_details_titles ${course.completed ? 'completed' : 'not-completed'}">
+            ${course.subject} ${course.number} - ${course.title}
+        </p>
+    `).join("");
+
+    // Calculate total credits for displayed courses
+    const totalCredits = filteredCourses.reduce((sum, c) => sum + (c.credits || 0), 0);
+    document.getElementById("totalCredits").textContent = `The total credits for courses listed above is ${totalCredits}`;
+}
+
+// Button event listeners
+document.getElementById("allBtn").addEventListener("click", () => renderCourses("ALL"));
+document.getElementById("cseBtn").addEventListener("click", () => renderCourses("CSE"));
+document.getElementById("wddBtn").addEventListener("click", () => renderCourses("WDD"));
+
+// Initial render
+renderCourses();
+// ...existing code...
