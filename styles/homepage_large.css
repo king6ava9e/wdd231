@@ -1,0 +1,39 @@
+/************* MEDIA QUERIES FROM BIG SCREENS********/
+@media (min-width: 760px) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    header{
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+    .navigation{
+        display: block !important;
+     
+    }
+
+    .navigation ul{
+        display: flex;
+        border: none;
+        
+    }
+
+    .navigation a {
+        display: block;
+        padding :10px;
+        text-decoration: none;
+        margin: 5px;
+        border: none;
+     border-bottom: none;
+        list-style: none;
+    }
+}
+
+/************** screen of 850px plus ************/
+

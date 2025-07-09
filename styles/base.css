@@ -1,0 +1,83 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212cb;
+        color: white;
+    }
+}
+
+/************************** HEADER ************************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px antiquewhite;
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: gold;
+}
+
+
+/************************* HAMBURGER NAV *************/
+.hamburger {
+     background: none;
+     border: none;
+     color: gold;
+     cursor: pointer;
+     font-size: 2rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+   /* font-size: 2rem;*/
+}
+
+.hamburger.show::before{
+    content: "\0007";
+}
+
+/*************************  NAVIGATION *************/
+.navigation {
+    display: none;
+}
+
+.navigation.show{
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation a {
+    display:block ;
+    padding: .8rem 10px;
+    color: gold;
+    text-decoration: none;
+    border-bottom: solid 1px antiquewhite;
+}
+
+.navigation li.current {
+    background-color: rgb(158, 116, 61);
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.navigation a:hover {
+    background-color: antiquewhite;
+}

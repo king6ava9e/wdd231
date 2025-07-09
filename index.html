@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="SoulSystem E-commerce Website">
+    <meta name="author" content="Acheampong Kingsley">
+    <meta name="keywords" content="E-commerce , SoulSystem, Website, Acheampong , Kingsley, Bussinees">
+    <meta name="description" content="This is an E-commerce Website created by Acheampong Kingsley, to connect local Bussinees together and enable ease of access for resources.">
+    <title>SoulSystem E-commerce Site</title>
+    <link rel="icon" href="images/soulSystem logo.jpg">
+
+    
+    <!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@YourTwitterHandle">
+<meta name="twitter:creator" content="@AcheampongKingsley">
+<meta name="twitter:title" content="SoulSystem E-commerce Website">
+<meta name="twitter:description" content="This is an E-commerce Website created by Acheampong Kingsley, to connect local businesses together and enable ease of access for resources.">
+<meta name="twitter:image" content="https://yourdomain.com/images/soulSystem%20logo.jpg">
+
+<!-- Open Graph meta tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SoulSystem E-commerce Website">
+<meta property="og:description" content="This is an E-commerce Website created by Acheampong Kingsley, to connect local businesses together and enable ease of access for resources.">
+<meta property="og:image" content="https://yourdomain.com/images/soulSystem%20logo.jpg">
+<meta property="og:url" content="https://yourdomain.com/">
+<meta property="og:site_name" content="SoulSystem E-commerce Site">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--links for css and javascrips-->
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/hompage_small.css">
+<link rel="stylesheet" href="styles/homepage_large.css" media="screen and (min-width: 760px)">
+
+<script src="scripts/homepage.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img class="site_icon" src="images/coding-html-svgrepo-com.svg" alt="site logo" width="50" height="50">
+        <span class="site_name">SoulSystem E-commerce Site</span>
+        <button id="hamburger_button" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <nav id="nav_bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Home</h1>
+
+        <section class="about_me_section">
+            <h2 class="about_me">About Me</h2>
+            <p class="about_me_paragraph">I'm Acheampong Kingsley — a passionate learner and builder at the intersection of Software Engineering, DevOps, and Human Development. I'm currently studying Software Engineering and Nursing, with a long-term vision to merge technology, health, and purpose. Whether I'm crafting clean code, exploring AI systems, or designing solutions that make life better, I bring heart, discipline, and a deep hunger to grow.Let's build something meaningful.
+
+</p>
+        </section>
+
+        <section class="student_photo_section">
+            <h2 class="student_photo_title">Student Photo</h2>
+            
+                <figure >
+                    <img src="images/profile.jpg"   alt="student Photo" width="200" height="350" title="Acheampong Kingsley">
+                    <figcaption><p>Acheampong Kingsley</p>
+                    <p>DevOps Software Engineer</p></figcaption>
+                </figure>
+           
+        </section>
+
+        <section>
+            <h2 class="certificate_title">Web Certificate Courses</h2>
+           <div class="course_titles">
+            <p><button class="buttons" id="allBtn">All</button></p>
+           <p ><button class="buttons" id="cseBtn">CSE</button></p>
+           <p ><button class="buttons" id="wddBtn">WDD</button></p> </div>
+
+           <div class="course_details">
+            <p class="course_details_titles"> WDD 130</p>
+            <p class="course_details_titles">WDD131</p>
+            <p class="course_details_titles">WDD231</p>
+           </div>
+           <p class="lonely_paragraph"> The total credits for course listed above is 6</p>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer_images">
+            <p><img src="images/1_Linkedin_unofficial_colored_svg-64.webp" alt="Linkdln icon" width="50" height="50"></p>
+            <p><img src="images/github-64.webp" alt="Github icon" width="50" height="50"></p>
+            <p><img src="images/twitter.png" alt="Twitter icon" width="50" height="50"></p>
+        </div>
+
+         <div class="footer-bottom">
+        <p>
+            ©️ <span id="currentyear"></span> 👑 Acheampong Kingsley 👑 Ghana 
+        </p>
+        <p id="lastModified"></p>
+    </div>
+    </footer>
+
+    
+</body>
+</html>
