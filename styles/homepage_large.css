@@ -35,5 +35,43 @@
     }
 }
 
-/************** screen of 850px plus ************/
+/************** screen of 920px plus ************/
 
+@media (min-width:920px){
+   .about_and_student_photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "about_me_section about_me_section student_photo_section";
+
+    column-gap: 1.5rem;
+    
+   }
+
+   .about_me_section{
+    grid-area: about_me_section;
+   }
+   .student_photo_section{
+    grid-area: student_photo_section;
+   
+   }
+
+   .certification{
+    margin-top: 1rem;
+   }
+
+   .navigation ul{
+    font-size: large;
+   }
+}
+
+@media (min-width:1220px){
+    header, main, nav, footer  {
+      max-width: 1115px;
+      margin: 0 auto;
+     
+      
+        
+    }
+
+}
