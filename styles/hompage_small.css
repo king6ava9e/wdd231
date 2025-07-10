@@ -178,8 +178,8 @@ h1{
 .about_me{
     border: 1px solid gray;
     text-align: center;
-    background-color: #1F1F1F;
-    color: #C5A100;
+     background-color: #EAEAEA;
+   color: #1F1F1F;
     font-size: 1.5rem;
     padding: 3px;
 } 
@@ -204,8 +204,8 @@ h1{
 .student_photo_title {
     border: 1px solid gray;
     text-align: center;
-    background-color: #1F1F1F;
-    color: #C5A100;
+     background-color: #EAEAEA;
+   color: #1F1F1F;
     font-size: 1.5rem;
     padding: 3px;
 }
@@ -256,8 +256,8 @@ figcaption{
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-style: oblique;
-   background-color: #121212;
-   color: #C5A100;
+   background-color: #EAEAEA;
+   color: #1F1F1F;
    margin-bottom: -1.5rem;
    
 }
@@ -267,8 +267,8 @@ figcaption{
     border: 1px solid gray;
      border: 1px solid gray;
     text-align: center;
-    background-color: #1F1F1F;
-    color: #C5A100;
+    background-color: #EAEAEA;
+    color: #1F1F1F;
     font-size: 1.5rem;
     padding: 3px;
 }
@@ -286,8 +286,8 @@ figcaption{
 .buttons{
     width: 5.9rem;
     border-radius: 15px;
-    color: goldenrod;
-    background-color: #121212;
+    background-color: #EAEAEA;
+   color: #1F1F1F;
     cursor: pointer;
 }
 
@@ -346,7 +346,8 @@ figcaption{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    background-color: #D4AF37;
+     background-color: #EAEAEA;
+   color: #1F1F1F;
     text-align: center;
 
 }
