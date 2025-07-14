@@ -1,0 +1,38 @@
+  {
+    "familyName":"Acheampong",
+    "moveInDate": "5th July,2025",
+    "numberOfRecordi":5,
+    "ifVisited":"false",
+    "individualFamilyData":[{
+        "name":"Kingsley",
+        "birthdate":"5th October,2000",
+        "gender":"male"
+     
+    }, 
+
+    {
+        "name":"Naomi",
+        "birthdate":"20th Ocotber, 1957",
+        "gender":"female"
+    }
+    ,
+    {
+        "name":"Bright",
+        "birthdate":"20th Ocotber, 1980",
+        "gender":"male"
+    },
+
+    {
+        "name":"Comfort",
+        "birthdate":"20th Ocotber, 1983",
+        "gender":"female"
+    },
+
+    {
+        "name":"Prince",
+        "birthdate":"20th Ocotber, 1957",
+        "gender":"male"
+    }
+
+]
+}

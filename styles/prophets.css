@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+#hamburger_button {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#hamburger_button::before,
+#hamburger_button::after,
+#hamburger_button div {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  left: 0;
+  transition: 0.3s;
+}
+
+#hamburger_button::before {
+  top: 0;
+}
+
+#hamburger_button::after {
+  bottom: 0;
+}
+
+#hamburger_button div {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ===== MAIN & CARDS ===== */
+main {
+  padding: 1.5rem;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-items: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Typography for names */
+.prophet_name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  color: #1f2937;
+}
+
+/* 📱 Responsive breakpoints */
+@media screen and (max-width: 1024px) {
+  #cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ===== RESPONSIVE GRID ===== */
+@media screen and (min-width: 760px) {
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,4fr);
+    gap: 2rem;
+  }
+}
