@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Franko Trading",
+    "address": "Aseda House, Opp Challenge Bookshop, Adum, Kumasi",
+    "phone": "+233242222651",
+    "website": null,
+    "image": "franko.jpeg",
+    "level": 3,
+    "description": "Mobile phones, gadgets & accessories store with delivery",
+    "type": "Phone Shop"
+  },
+  {
+    "name": "Big Ben Ltd.",
+    "address": "Kejetia, Adum, Kumasi",
+    "phone": "+233322080916",
+    "website": null,
+    "image": "bigben.jpeg",
+    "level": 2,
+    "description": "Electronics & mobile phone retailer",
+    "type": "Electronics Store"
+  },
+  {
+    "name": "Freddies Corner",
+    "address": "Near Stanbic Bank, Harper Rd., Adum, Kumasi",
+    "phone": "+233231666440",
+    "website": null,
+    "image": "freddies.jpeg",
+    "level": 1,
+    "description": "Mobile phone accessories and sales",
+    "type": "Phone Shop"
+  },
+  {
+    "name": "Agyengo Phones",
+    "address": "Opp. Melcon Stores, Adum, Kumasi",
+    "phone": "+233243558144",
+    "website": null,
+    "image": "agyengo.jpg",
+    "level": 2,
+    "description": "Mobile phones & accessories",
+    "type": "Phone Shop"
+},
+  {
+    "name": "Huawei Adum",
+    "address": "Prempeh I Street 108, Adum, Kumasi",
+    "phone": "+233325381510",
+    "website": null,
+    "image": "huaweiadum.jpg",
+    "level": 3,
+    "description": "Authorized Huawei electronics store",
+    "type": "Electronics Store"
+  },
+  {
+    "name": "San Technology",
+    "address": "Bee Buzy Bldg., Adum, Kumasi",
+    "phone": "+233200897948",
+    "website": null,
+    "image": "santechnology.jpg",
+    "level": 1,
+    "description": "Advertising & marketing services",
+    "type": "Service Provider"
+  },
+  {
+    "name": "Mobile Zone",
+    "address": "Near Topman Shoes, Adum, Kumasi",
+    "phone": "+233322044147",
+    "website": null,
+    "image": "mobilezone.webp",
+    "level": 2,
+    "description": "Phones & electronics online shop",
+    "type": "Electronics Shop"
+  }
+]
