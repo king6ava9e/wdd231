@@ -22,7 +22,7 @@ body {
 
 /* Dark Theme */
 body.dark-mode {
-  background-color: #121212d7;
+  background-color: #121212e7;
   color: #ffffff;
 }
 
@@ -158,6 +158,8 @@ ul{
 }
 
 
+
+
 /************ BUTTONS ********************/
 .view-buttons{
     display: flex;
@@ -220,7 +222,7 @@ footer{
 /************ CARD ***************/
 /* Common Card Style */
 .member-card {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #ccc;
   padding: 1rem;
   margin: 1rem;
@@ -240,6 +242,44 @@ footer{
 }
 
 
+main h1 {
+  color: black; /* deep green */
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #FFD700; /* gold underline */
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem; /* default size for very small screens */
+  background-color: #708090;
+}
+
+/* Medium phones and up (≥ 480px) */
+@media screen and (min-width: 480px) {
+  main h1 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Tablets and up (≥ 768px) */
+@media screen and (min-width: 768px) {
+  main h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Desktops and up (≥ 1024px) */
+@media screen and (min-width: 1024px) {
+  main h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Large desktops (≥ 1280px) */
+@media screen and (min-width: 1280px) {
+  main h1 {
+    font-size: 2.5rem;
+  }
+}
 
 
 .member-card img {
@@ -264,7 +304,8 @@ footer{
 
 .member-card a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.74);
+    color: black;
+    background-color: #708090;;
 }
 /* Grid View */
 .grid {
