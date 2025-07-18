@@ -17,6 +17,7 @@
 body {
   background-color: var(--color-background);
   color: #000000;
+  
 }
 
 /* Dark Theme */
@@ -60,6 +61,7 @@ header{
     border-bottom: 1px solid gray;
     column-gap: 5px;
     align-items: end;
+    background-color: #708090;
     
 }
 
@@ -149,7 +151,7 @@ ul{
 }
 
 .navigation li.current {
-    background-color: #708090;
+    background-color: 	#F5FFFA;
 }
 
 
@@ -248,13 +250,19 @@ footer{
 .member-card h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .member-card p {
   margin: 0.25rem 0;
   font-size: 0.9rem;
+  text-decoration: none;
 }
 
+.member-card a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+}
 /* Grid View */
 .grid {
   display: grid;
