@@ -215,7 +215,7 @@ footer{
     gap: 0.3rem;
     display: flex;
     flex-direction: column;
-};
+}
 
 /************ CARD ***************/
 /* Common Card Style */
