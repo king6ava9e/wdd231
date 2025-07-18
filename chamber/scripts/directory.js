@@ -84,5 +84,8 @@ hamburgerButton.addEventListener("click", () =>{
     container.classList.remove('grid');
   });
 
+  alert("You can click on the moon icon to switch the color mode 🌓")
+  alert("You can click on the view buttons to choose your prefered view style!")
+
   getMembers();
 
