@@ -144,6 +144,7 @@ ul{
     flex-direction: row;
     color: var(--color-text);
     border-bottom: 1px solid gray;
+    background-color: #F5FFFA;
 }
 
 .navigation a:hover{
@@ -151,7 +152,9 @@ ul{
 }
 
 .navigation li.current {
-    background-color: 	#F5FFFA;
+    background-color: 	#E6E6FA;
+    text-decoration: underline;
+    text-decoration-color: #004d00;
 }
 
 
