@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 // course array
 const courses = [
     {
@@ -123,3 +125,32 @@ document.getElementById("wddBtn").addEventListener("click", () => renderCourses(
 // Initial render
 renderCourses();
 // ...existing code...
+
+// DIALOG
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
+    
+const modal = document.getElementById("course_detailed_info");
+const closeButton = document.querySelector(".dialog_button");
+
+modal.showModal();
+closeButton.addEventListener("click", ()=>{
+    modal.close();
+});
+

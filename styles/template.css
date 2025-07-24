@@ -1,0 +1,49 @@
+/* Weather Widget Styles */
+.weather-widget {
+  max-width: 340px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: #fffbe6;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(31, 31, 31, 0.08);
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border: 2px solid #C5A100;
+}
+
+.weather-widget h2 {
+  color: #1F1F1F;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.weather-widget .weather-icon {
+  width: 90px;
+  height: 90px;
+  margin: 1rem 0;
+}
+
+.weather-widget .temperature {
+  font-size: 2.5rem;
+  color: #C5A100;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.weather-widget .description {
+  font-size: 1.2rem;
+  color: #1F1F1F;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+  .weather-widget {
+    max-width: 400px;
+    padding: 2.5rem 2rem;
+  }
+  .weather-widget .temperature {
+    font-size: 3rem;
+  }
+}
