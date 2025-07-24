@@ -10,6 +10,7 @@
     border-bottom: 1px solid gray;
     column-gap: 5px;
     align-items: end;
+   
     
 }
 
@@ -210,6 +211,12 @@ justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+main{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
