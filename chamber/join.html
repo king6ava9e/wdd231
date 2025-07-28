@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply to become a member of the Kumasi Adum Chamber of Commerce. Join our network of trusted phone shops, electronics dealers, and service providers driving growth in Adum, Kumasi.">
+    <meta name="keywords" content="Join Kumasi Adum Chamber of Commerce, Become a chamber member Adum Kumasi, Business membership application Ghana, Register your business in Adum, Chamber partnership for phone shops, Kumasi local business growth, Electronics dealers join chamber Kumasi, Verified Adum business network, Small business support Adum Kumasi, Apply for Kumasi business membership, Chamber benefits for service providers, Connect with Adum entrepreneurs, Grow your shop with Kumasi Chamber, Business registration in Kumasi Ghana, Trusted marketplace membership Ghana">
+    <meta name="author" content="Acheampong Kingsley">
+    <title>Become a Member - Kumasi Adum Chamber of Commerce</title>
+    <link rel="shortcut icon" href="/wdd231/chamber/images/soulsystemlogo.jpg" type="image/x-icon">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@KumasiCommerce">
+    <meta name="twitter:creator" content="@AcheampongKingsley">
+    <meta name="twitter:title" content="Join the Kumasi Adum Chamber of Commerce">
+    <meta name="twitter:description" content="Apply for membership and become part of Adum's trusted business network. Connect with verified phone shops, electronics dealers, and service providers in Kumasi.">
+    <meta name="twitter:image" content="https://soulsystem.com/images/kumasi-chamber-join-preview.jpg">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Join the Kumasi Adum Chamber of Commerce">
+    <meta property="og:description" content="Apply today and become part of Kumasi's trusted business network. Grow your phone shop, electronics business, or service brand with chamber support.">
+    <meta property="og:image" content="/wdd231/chamber/images/kumasi-chamber-join-preview.jpg">
+    <meta property="og:url" content="https://king6ava9e.github.io/wdd231/chamber/join.html">
+    <meta property="og:site_name" content="Kumasi Adum Chamber of Commerce">
+
+    <!-- Facebook Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Join the Kumasi Adum Chamber of Commerce">
+    <meta property="og:description" content="Become a member and elevate your business. Connect with Kumasi's trusted network of phone shops, electronics dealers, and service providers.">
+    <meta property="og:image" content="https://6ava0eking.com/images/kumasi-chamber-join-preview.jpg">
+    <meta property="og:url" content="https://6ava0eking.com/join.html">
+    <meta property="og:site_name" content="Kumasi Adum Chamber of Commerce">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join_small.css">
+    <link rel="stylesheet" href="styles/join_large.css">
+</head>
+
+<body>
+    <header>
+        <img class="site_icon" src="images/soulsystemlogo.jpg" alt="site logo" width="50" height="50">
+        <span class="site_name">SoulDirectory</span>
+        <div id="hamburger_button" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="theme-toggle" aria-label="Toggle Dark Mode">🌙</div>
+    </header>
+
+    <nav id="nav_bar" class="navigation">
+        <ul>
+            <li class="current"><a href="">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+
+    <main class="form-section">
+        <form method="get" action="thankyou.html">
+            <label>
+                First Name:
+                <input type="text" name="firstName" required title="First Name" autocomplete="given-name" placeholder="eg:Kingsley">
+            </label><br><br>
+
+            <label>
+                Last Name:
+                <input type="text" name="lastName" required title="Last Name" autocomplete="family-name" placeholder="eg:Acheampong">
+            </label><br><br>
+
+            <label>
+                Organizational Title:
+                <input type="text" name="orgTitle" title="Organizational Title" autocomplete="organization-title" placeholder="eg:junior developper" required>
+            </label><br><br>
+
+            <label>
+                Email Address:
+                <input type="email" name="email" required title="Email Address" autocomplete="email" placeholder="example@email.com">
+            </label><br><br>
+
+            <label>
+                Mobile Phone:
+                <input type="tel" name="phone" required title="Mobile Phone" autocomplete="tel">
+            </label><br><br>
+
+            <label>
+                Organization Name:
+                <input type="text" name="organization" required title="Organization Name" autocomplete="organization" placeholder="eg:SoulSystem">
+            </label><br><br>
+
+            <label>
+                Membership Level:
+                <select name="membership" title="Membership Level" required>
+                    <option value="np">NP Membership (Free)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label><br><br>
+
+            <label>
+                Organization Description:
+                <textarea name="description" title="Organization Description"></textarea>
+            </label><br><br>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit Application">
+        </form>
+
+        <section class="membership-cards">
+            <div class="card np">
+                <h3>NP Membership</h3>
+                <a href="#modal-np">More Info</a>
+            </div>
+            <div class="card bronze">
+                <h3>Bronze Membership</h3>
+                <a href="#modal-bronze">More Info</a>
+            </div>
+            <div class="card silver">
+                <h3>Silver Membership</h3>
+                <a href="#modal-silver">More Info</a>
+            </div>
+            <div class="card gold">
+                <h3>Gold Membership</h3>
+                <a href="#modal-gold">More Info</a>
+            </div>
+        </section>
+
+        <!-- Modals -->
+        <dialog id="modal-np" class="modal">
+            <p>NP Membership includes access to community events and updates. Free for all non-profits.</p>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="modal-bronze" class="modal">
+            <p>Bronze includes event invites, training access, and business listing.</p>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="modal-silver" class="modal">
+            <p>Silver includes everything in Bronze + homepage spotlight and discounted advertising.</p>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="modal-gold" class="modal">
+            <p>Gold members receive top visibility, free trainings, ad packages, and VIP events.</p>
+            <button class="close-modal">Close</button>
+        </dialog>
+    </main>
+
+    <footer>
+        <div class="footer_info">
+            <h5>SoulSystem Chamber Of Commerce</h5>
+            <p>Kumasi-Ashanti</p>
+            <p>Adum,00233</p>
+            <p>acheampongkingsley2003@gmail.com</p>
+            <p>(+233)204961832</p>
+        </div>
+
+        <div class="footer_images">
+            <p><img src="images/linkdln.webp" alt="Linkdln icon" width="50" height="50"></p>
+            <p><img src="images/github-64.webp" alt="Github icon" width="50" height="50"></p>
+            <p><img src="images/twitter.png" alt="Twitter icon" width="50" height="50"></p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>WDD231 Class Project</p>
+            <p>Acheampong Kingsley👑</p> 
+            <p>©️<span id="currentyear"></span> SoulSystem Chamber of Commerce|Kumasi-Ghana|Adum|</p>
+            <p id="lastModified"></p> 
+        </div>
+    </footer>
+
+    <script src="scripts/join.js"></script>
+</body>
+</html>
