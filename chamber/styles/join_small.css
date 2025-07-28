@@ -318,56 +318,63 @@ input[type="submit"]:hover {
   }
 }
 
-/* Modals */
+/* MODAL STYLING THAT WORKS PROPERLY */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.modal-content {
-  background-color: #fff;
-  margin: auto;
-  padding: 2rem;
-  border: 1px solid #888;
-  width: 90%;
-  max-width: 600px;
+  /* Basic dialog styling */
+  border: none;
   border-radius: 10px;
-  position: relative;
+  padding: 2rem;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  
+  /* Remove initial opacity/transform - let dialog handle visibility */
+  /* animation: fadeInScale 0.4s ease-out; */
+  /* opacity: 0; */
+  /* transform: scale(0.9); */
 }
 
+/* Backdrop styling */
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+/* Close button styling */
 .close-modal {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
+  background: #40502c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  transition: background 0.3s ease;
 }
 
 .close-modal:hover {
-  color: red;
+  background: #2c3e50;
 }
 
-/* Keyframes for sliding in + scaling */
-@keyframes slideScaleIn {
-  0% {
+/* Animation when modal opens */
+@keyframes modalOpen {
+  from {
     opacity: 0;
-    transform: translateY(50px) scale(0.8);
+    transform: scale(0.95);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0) scale(1);
+    transform: scale(1);
   }
 }
+
+/* Apply animation only when dialog is open */
+dialog[open] {
+  animation: modalOpen 0.3s ease-out forwards;
+}
+
+/* Remove all other conflicting modal styles */
 
 /* Membership cards animated on load */
 .membership-card {
@@ -382,39 +389,6 @@ input[type="submit"]:hover {
   animation-iteration-count: infinite;
 }
 
-/* Dialog modal styling */
-dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-dialog {
-  border: none;
-  border-radius: 12px;
-  padding: 2rem;
-  max-width: 400px;
-  animation: fadeInDialog 0.4s ease-out forwards;
-  transform: scale(0.9);
-  opacity: 0;
-}
-
-@keyframes fadeInDialog {
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-/* Close button for modals */
-.close-button {
-  background: crimson;
-  color: white;
-  border: none;
-  padding: 0.4em 1em;
-  border-radius: 8px;
-  cursor: pointer;
-  float: right;
-  font-size: 1rem;
-}
 
 .membership-cards {
  margin-bottom: 1rem;
@@ -455,7 +429,7 @@ dialog {
   }
 }
 
-/* Modal Styling */
+/* Modal Styling
 dialog.modal {
   padding: 2rem;
   border: none;
@@ -475,11 +449,8 @@ dialog.modal {
     opacity: 1;
     transform: scale(1);
   }
-}
+} */
 
-.modal::backdrop {
-  background: rgba(0, 0, 0, 0.5);
-}
 
 /* Join Page H1 Styling */
 .join-title {
