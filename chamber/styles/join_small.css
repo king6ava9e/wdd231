@@ -480,3 +480,68 @@ dialog.modal {
 .modal::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
+
+/* Join Page H1 Styling */
+.join-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #40502c;
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  position: relative;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.join-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+  border-radius: 2px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .join-title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .join-title {
+    font-size: 2.4rem;
+    margin: 1.8rem 0;
+    padding-bottom: 1.2rem;
+  }
+  
+  .join-title::after {
+    width: 100px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-title {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    padding-bottom: 1rem;
+  }
+  
+  .join-title::after {
+    width: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  .join-title {
+    font-size: 1.8rem;
+  }
+}
