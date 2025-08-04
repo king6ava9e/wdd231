@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Kejetia Market",
+    "address": "Dr. Mensah Road, Adum, Kumasi, Ghana",
+    "description": "One of the largest markets in West Africa, Kejetia is the beating heart of trade in Kumasi with thousands of stalls offering everything from food to electronics.",
+    "image": "kejetia_market_resized.webp"
+  },
+  {
+    "name": "KNUST - Kwame Nkrumah University of Science and Technology",
+    "address": "University Junction, Kumasi, Ghana",
+    "description": "Ghana's leading science and technology institution, KNUST is a symbol of academic excellence and innovation, drawing students and researchers from across Africa.",
+    "image":  "knust_entrance_resize.webp"
+  },
+  {
+    "name": "Kumasi Central Mosque",
+    "address": "Mosque Street, Adum, Kumasi, Ghana",
+    "description": "A significant religious and cultural landmark in Adum, drawing hundreds of worshippers and visitors to its beautiful structure and spiritual atmosphere.",
+    "image": "central_mosque_resize.webp"
+  },
+  {
+    "name": "Kumasi Railway Terminal",
+    "address": "Railway Station, Adum, Kumasi, Ghana",
+    "description": "A historic and modernized railway hub connecting Kumasi to major regions across Ghana — vital for transport and trade.",
+    "image": "railway_terminal_resize.webp"
+  },
+  {
+    "name": "Rattray Park",
+    "address": "Off Victoria Opoku Ware Road, Kumasi, Ghana",
+    "description": "A modern recreational park featuring fountains, playgrounds, and green spaces — perfect for family outings and events.",
+    "image": "rattary_park_resize.webp"
+  },
+  {
+    "name": "Lancaster Kumasi City Hotel",
+    "address": "Rain Tree Street, Adum, Kumasi, Ghana",
+    "description": "One of Kumasi's finest hotels offering luxurious accommodation, conference spaces, and exceptional hospitality near the city center.",
+    "image": "lancaster_hotel_resize.webp"
+  },
+  {
+    "name": "Komfo Anokye Teaching Hospital",
+    "address": "Komfo Anokye Road, Bantama, Kumasi, Ghana",
+    "description": "A premier teaching hospital in West Africa, Komfo Anokye is known for its medical excellence and historical significance to the Ashanti Kingdom.",
+    "image": "Komfo anokey_hospital_resize.webp"
+  },
+  {
+    "name": "Kumasi City Mall",
+    "address": "Asokwa, Kumasi, Ghana",
+    "description": "A modern shopping destination featuring international brands, restaurants, a cinema, and vibrant retail experiences in the heart of Kumasi.",
+    "image": "kumasi_city_mall.webp"
+  }
+]

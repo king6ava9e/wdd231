@@ -1,16 +1,8 @@
 * {
-  font-family: 'Inter', sans-serif;
+  
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-    --color-primary: #006400;     /* Deep Green – Growth & Nature */
-  --color-secondary: #FFD700;   /* Gold – Prestige & Highlights */
-  --color-background: #FFFFFF;  /* White – Clean Background */
-  --color-text: #000000;        /* Black – High Contrast Text */
-  --color-accent: #004d00;      /* Darker Green – Buttons / Hover */
-}
-
-
+  box-sizing: border-box;}
 
 /******** DARK MODE THEME ****************/
 /* Default Light Theme */
@@ -29,7 +21,6 @@ body.dark-mode {
 html {
     scroll-behavior: smooth;
 }
-
 
 /* Optional: style button */
  #theme-toggle { 
@@ -51,6 +42,7 @@ html {
         
     }
 }
+
 
 
 /********** HEADER **********/
@@ -144,7 +136,7 @@ ul{
     flex-direction: row;
     color: var(--color-text);
     border-bottom: 1px solid gray;
-    background-color: #F5FFFA;
+   
 }
 
 .navigation a:hover{
@@ -152,31 +144,9 @@ ul{
 }
 
 .navigation li.current {
-    background-color: 	#E6E6FA;
+    
     text-decoration: underline;
-    text-decoration-color: #004d00;
-}
-
-
-
-
-/************ BUTTONS ********************/
-.view-buttons{
-    display: flex;
-    gap: 1rem;
-    margin: 1rem;
-    justify-content: center;
-}
-
-button{
-    width: 10rem;
-    height: 2rem;
-    border-radius: 1rem;
-
-}
-
-button:hover{
-    background-color: #FFD700;
+   
 }
 
 
@@ -219,105 +189,133 @@ footer{
     flex-direction: column;
 }
 
-/************ CARD ***************/
-/* Common Card Style */
-.member-card {
-  /* background-color: #ffffff; */
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
- 
-}
 
-#businesses{
-    margin-bottom: 1rem;
-    margin: 1rem;
-}
-
-
-main h1 {
-  color: black; /* deep green */
-  margin-bottom: 1rem;
-  text-align: center;
-  border-bottom: 2px solid #FFD700; /* gold underline */
-  padding-bottom: 0.5rem;
-  font-weight: 600;
-  font-size: 1.5rem; /* default size for very small screens */
-  background-color: #708090;
-}
-
-/* Medium phones and up (≥ 480px) */
-@media screen and (min-width: 480px) {
-  main h1 {
-    font-size: 1.75rem;
-  }
-}
-
-/* Tablets and up (≥ 768px) */
-@media screen and (min-width: 768px) {
-  main h1 {
-    font-size: 2rem;
-  }
-}
-
-/* Desktops and up (≥ 1024px) */
-@media screen and (min-width: 1024px) {
-  main h1 {
-    font-size: 2.25rem;
-  }
-}
-
-/* Large desktops (≥ 1280px) */
-@media screen and (min-width: 1280px) {
-  main h1 {
-    font-size: 2.5rem;
-  }
-}
-
-
-.member-card img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  margin-bottom: 1rem;
-  border-radius: 50%;
-}
-
-.member-card h3 {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.member-card p {
-  margin: 0.25rem 0;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-.member-card a {
-    text-decoration: none;
-    color: black;
-    background-color: #708090;;
-}
-/* Grid View */
-.grid {
+/* ===== CARDS CONTAINER ===== */
+.cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* List View */
-.list {
+/* ===== INDIVIDUAL PLACE CARD ===== */
+.place-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  margin: 1rem;
 }
 
-/* for the week **************************/
+.place-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== CARD IMAGE ===== */
+.place-card figure {
+  margin: 0;
+}
+
+.place-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== TEXT CONTENT ===== */
+.place-card h2 {
+  font-size: 1.25rem;
+  margin: 1rem;
+  color: #006400; /* Deep green primary color */
+}
+
+.place-card address {
+  font-style: normal;
+  margin: 0 1rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.place-card p {
+  margin: 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* ===== BUTTON ===== */
+.place-card button {
+  margin: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: #FFD700; /* Gold secondary color */
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.place-card button:hover {
+  background-color: #e6c200;
+}
+
+/* ===== MOBILE OPTIMIZATION ===== */
+@media (max-width: 480px) {
+  .place-card img {
+    height: 160px;
+  }
+
+  .place-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .place-card p,
+  .place-card address {
+    font-size: 0.9rem;
+  }
+
+  .place-card button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#sidebar-message {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 1.5rem;
+  border-left: 4px solid #006400; /* Deep green */
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #000;         /* black text */
+  background-color: #FFD700;  /* gold background for highlight */
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* Medium screens (641px to 1024px) */
+@media screen and (min-width: 641px) {
+  .discover-heading {
+    font-size: 2rem;
+    padding: 1.25rem;
+  }
+}
+
+/* Large screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+  .discover-heading {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+  }}
