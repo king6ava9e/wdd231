@@ -26,7 +26,6 @@ darkModeButton.addEventListener("click", () => {
 });
 
 // Planner functionality
-import { getJournalEntries } from "./reflection";
 document.addEventListener('DOMContentLoaded', function() {
     // DOM Elements
     const taskForm = document.getElementById('goal-form');
