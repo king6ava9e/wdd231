@@ -1,4 +1,3 @@
-const { createElement } = require("react");
 
 // course array
 const courses = [

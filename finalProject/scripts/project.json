@@ -1,0 +1,136 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs"
+    },
+    {
+      "id": 2,
+      "text": "Start where you are. Use what you have. Do what you can.",
+      "author": "Arthur Ashe"
+    },
+    {
+      "id": 3,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "id": 4,
+      "text": "Your limitation—it’s only your imagination.",
+      "author": "Unknown"
+    },
+    {
+      "id": 5,
+      "text": "Dream it. Wish it. Do it.",
+      "author": "Unknown"
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": 1,
+      "date": "2025-08-01",
+      "mood": "happy",
+      "reflection": "Felt energized after morning meditation and productive work session.",
+      "tag": "productivity"
+    },
+    {
+      "id": 2,
+      "date": "2025-08-02",
+      "mood": "calm",
+      "reflection": "Enjoyed a peaceful walk and read a chapter of my favorite book.",
+      "tag": "mindfulness"
+    },
+    {
+      "id": 3,
+      "date": "2025-08-03",
+      "mood": "motivated",
+      "reflection": "Set clear goals for the week and made progress on my project.",
+      "tag": "goals"
+    },
+    {
+      "id": 4,
+      "date": "2025-08-04",
+      "mood": "tired",
+      "reflection": "Had a long day but pushed through and completed important tasks.",
+      "tag": "resilience"
+    },
+    {
+      "id": 5,
+      "date": "2025-08-05",
+      "mood": "happy",
+      "reflection": "Spent quality time with family and felt grateful for their support.",
+      "tag": "gratitude"
+    },
+    {
+      "id": 6,
+      "date": "2025-08-06",
+      "mood": "reflective",
+      "reflection": "Took time to journal about my progress and set new intentions.",
+      "tag": "self-awareness"
+    },
+    {
+      "id": 7,
+      "date": "2025-08-07",
+      "mood": "excited",
+      "reflection": "Started learning a new skill and felt enthusiastic about the journey.",
+      "tag": "learning"
+    },
+    {
+      "id": 8,
+      "date": "2025-08-08",
+      "mood": "calm",
+      "reflection": "Practiced mindfulness and breathing exercises to reduce stress.",
+      "tag": "mindfulness"
+    },
+    {
+      "id": 9,
+      "date": "2025-08-09",
+      "mood": "motivated",
+      "reflection": "Completed all my tasks early and planned ahead for tomorrow.",
+      "tag": "productivity"
+    },
+    {
+      "id": 10,
+      "date": "2025-08-10",
+      "mood": "content",
+      "reflection": "Enjoyed a balanced day of work and relaxation.",
+      "tag": "balance"
+    },
+    {
+      "id": 11,
+      "date": "2025-08-11",
+      "mood": "happy",
+      "reflection": "Received positive feedback at work and felt proud.",
+      "tag": "achievement"
+    },
+    {
+      "id": 12,
+      "date": "2025-08-12",
+      "mood": "tired",
+      "reflection": "Felt exhausted but maintained focus on important goals.",
+      "tag": "resilience"
+    },
+    {
+      "id": 13,
+      "date": "2025-08-13",
+      "mood": "hopeful",
+      "reflection": "Started planning a new project with optimism.",
+      "tag": "goals"
+    },
+    {
+      "id": 14,
+      "date": "2025-08-14",
+      "mood": "reflective",
+      "reflection": "Reviewed past progress and adjusted my strategy.",
+      "tag": "self-awareness"
+    },
+    {
+      "id": 15,
+      "date": "2025-08-15",
+      "mood": "grateful",
+      "reflection": "Thankful for the support of friends and mentors.",
+      "tag": "gratitude"
+    }
+  ]
+}

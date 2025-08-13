@@ -1,0 +1,156 @@
+@media (min-width:720px){
+    /********** HAMBURGER ***************/
+.hamburger{
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.hamburger::before{
+    content: "\2630";
+    font-size: 1.5rem;
+    display: none;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/**************** NAVIGATION ************/
+.navigation {
+    display: flex;
+    
+  
+}
+
+.navigation.show{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation a{
+  font-size: x-large;
+}
+
+.view-buttons{
+  font-size: large;
+
+}
+}
+
+
+/** header *******/
+/* Medium screens (tablets, ~720px and up) */
+@media (min-width: 720px) {
+  header span {
+    font-size: 1.5rem;
+  }
+  .header_emoji {
+    font-size: 2rem;
+  }
+}
+
+/* Large screens (desktops, ~1024px and up) */
+@media (min-width: 1024px) {
+  header span {
+    font-size: 1.75rem;
+  }
+  .header_emoji {
+    font-size: 2.25rem;
+  }
+}
+
+/* Extra-large screens (~1440px and up) */
+@media (min-width: 1440px) {
+  header span {
+    font-size: 2rem;
+  }
+  .header_emoji {
+    font-size: 2.5rem;
+  }
+}
+
+
+/**** footer ***********/
+/* Medium screens (tablets, ~720px and up) */
+@media (min-width: 720px) {
+  .quick_links h3 {
+    font-size: 1.2rem;
+  }
+  .quick_links a {
+    font-size: 1rem;
+  }
+  .copyright_and_name {
+    font-size: 0.95rem;
+  }
+}
+
+/* Large screens (desktops, ~1024px and up) */
+@media (min-width: 1024px) {
+  .quick_links h3 {
+    font-size: 1.4rem;
+  }
+  .quick_links a {
+    font-size: 1.1rem;
+  }
+  .copyright_and_name {
+    font-size: 1rem;
+  }
+}
+
+/* Extra-large screens (~1440px and up) */
+@media (min-width: 1440px) {
+  .quick_links h3 {
+    font-size: 1.6rem;
+  }
+  .quick_links a {
+    font-size: 1.25rem;
+  }
+  .copyright_and_name {
+    font-size: 1.1rem;
+  }
+}
+
+@media(min-width:600px){
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer_images img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .footer_images{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+/* Responsive adjustments */
+@media (min-width: 720px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  #weather-section {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  #weather-section {
+    grid-column: span 1;
+  }
+}
+
+@media(min-width:800px){
+    main{
+        max-width: 1200px;
+    }
+}

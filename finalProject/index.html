@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <title>SoulSync Dashboard | Align Your Life</title>
+
+
+    <meta name="description" content="Welcome to your SoulSync Dashboard — your personal space for tracking moods, habits, and daily focus with clarity and intention.
+
+This dashboard provides a mindful overview of your emotional patterns, daily routines, and productivity insights — helping you align with your deeper purpose every day.
+
+Whether you're reflecting on your feelings, building better habits, or simply staying centered, SoulSync is here to keep you grounded, focused, and growing.
+
+Start each day with purpose — and end it with peace." />
+
+<meta name="author" content="Acheampong Kingsley">
+
+<meta name="keywords" content="SoulSync dashboard, mood tracking app, daily habit tracker, productivity insights, personal growth tools, mindful living app, spiritual goal tracker, emotional wellness tracker, life alignment dashboard, self-improvement planner, digital wellness tools, track mood and habits, personal development platform, self-reflection app, daily motivation and focus, life dashboard for purpose, intentional living support, holistic productivity system, mood and goal journaling, spiritual wellness tracking" />
+
+<link rel="shortcut icon" href="images/soulsystemlogo.jpg" type="image/x-icon">
+
+<!-- Twitter Card meta tags for the SoulSync Dashboard -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SoulSyncApp">
+<meta name="twitter:creator" content="@AcheampongKingsley">
+<meta name="twitter:title" content="SoulSync Dashboard — Align Your Life with Purpose">
+<meta name="twitter:description" content="Track your moods, habits, and productivity with clarity and intention. SoulSync empowers you to live mindfully and grow daily. Start your alignment journey today.">
+<meta name="twitter:image" content="https://soulsystem.com/images/soulsync-dashboard-preview.jpg">
+
+<!-- Open Graph meta tags for the SoulSync Dashboard -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SoulSync Dashboard — Align Your Life with Purpose">
+<meta property="og:description" content="Track your mood, habits, and productivity with intention. The SoulSync Dashboard helps you stay centered, mindful, and aligned every day.">
+<meta property="og:image" content="https://soulsystem.com/images/soulsync-dashboard-preview.jpg">
+<meta property="og:url" content="https://king6ava9e.github.io/soulsync/dashboard.html">
+<meta property="og:site_name" content="SoulSync">
+
+<!-- project fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<lin+k rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+<!--links for css and javascrips-->
+<script src="scripts/index.js" defer></script>
+<link rel="stylesheet" href="/styles/normalize.css">
+<link rel="stylesheet" href="styles/index_small.css">
+<link rel="stylesheet" href="styles/index_large.css">
+
+</head>
+
+<body class="light" data-theme="dark">
+    <header>
+        <div class="header_image" ><img src="images/soulsystemlogo.jpg" alt="Site logo" width="50" height="50" ></div>
+        <span>soulsync</span>
+        <div class="header_emoji" id="header_icon_button">🌕</div>
+        <div class="hamburger" id="hamburger_button"></div>
+    </header>
+    <nav class="navigation" id="navigation_bar">
+        <ul>
+            <li class="current"><a href="index.html" target="_blank" >Dashboard</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="reflection.html">Reflection</a></li>
+            
+        </ul>
+    </nav>
+    
+    <!--Call to action for the join page-->
+    <p class="call-to-action" ><a href="join.html">Join for more exclusive contents</a></p>
+    <main>
+        <section class="dashboard-header">
+              <h1>Ready to own your day?</h1>
+
+        </section>
+
+            <section id="mood-tracker" class="card">
+      <h2 class="section-titles">Mood Tracker</h2>
+      <div class="mood-options" aria-label="Select your mood">
+        <!-- Emojis inserted here by JS or hardcoded -->
+        <button class="mood-btn" data-mood="happy" aria-label="Happy">😊</button>
+        <button class="mood-btn" data-mood="calm" aria-label="Calm">😌</button>
+        <button class="mood-btn" data-mood="motivated" aria-label="Motivated">💪</button>
+        <button class="mood-btn" data-mood="tired" aria-label="Tired">😴</button>
+        <button class="mood-btn" data-mood="reflective" aria-label="Reflective">🤔</button>
+      </div>
+    </section>
+
+    <!-- Weather Section Placeholder
+    <section id="weather-section" class="card">
+      <h2>Weather</h2>
+      <div class="weather-placeholder">
+        <p>Weather info coming soon...</p>
+      </div>
+    </section> -->
+     <!-- Weather Section -->
+    <section class="weather-section" id="main">
+         <h1>Weather </h1>
+        <div class="card"></div>
+            <h2 id="town"></h2>
+            <img id="graphic" src="PP" alt="GRAPHIC IMAGE">
+            <p id="description"></p>
+            <p id="temperature"></p>
+        </section>
+
+  
+
+ <!-- Separate Forecast Card -->
+<div class="forecast-widget">
+    <h2 class="forecast-title">3-Day Weather Forecast</h2>
+    <div id="forecast"></div>
+  </div>
+
+     <!-- Today's Tasks -->
+    <section id="daily-tasks" class="card">
+      <h2>Today's Tasks</h2>
+      <ul class="tasks-list">
+        <li>
+          <label>
+            <input type="checkbox" data-task="drink-water" /> Drink Water
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" data-task="read" /> Read
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" data-task="meditate" /> Meditate
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" data-task="exercise" /> Exercise
+          </label>
+        </li>
+      </ul>
+    </section>
+
+     <!-- Productivity Score -->
+    <section id="productivity-score" class="card">
+      <h2>Productivity Score</h2>
+      <label for="productivity-select">Rate your productivity today:</label>
+      <select id="productivity-select" aria-describedby="productivity-desc">
+        <option value="">Select a score</option>
+        <!-- Options 1 through 10 -->
+        <option value="1">1 - Very Low</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 - Average</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10 - Excellent</option>
+      </select>
+      <p id="productivity-desc" class="visually-hidden">Select a productivity score from 1 to 10.</p>
+    </section>
+    
+     <!-- Quote Section -->
+    <section id="daily-quote" class="card">
+      <h2>Quote of the Day</h2>
+      <blockquote id="quote-text">Loading quote...</blockquote>
+      <cite id="quote-author"></cite>
+    </section>
+
+    <!-- Journal Entries -->
+    <section id="journal-entries" class="card">
+      <h2>Recent Journal Entries</h2>
+      <ul id="entries-list">
+        <!-- Loaded dynamically from JSON -->
+      </ul>
+    </section>
+    </main>
+
+    <footer>
+        <div class="quick_links">
+            <h3>QUICK Links</h3>
+            <p><a href="planner.html">Plan your day</a></p>
+            <p><a href="reflection.html">Reflect on the day</a></p>
+            <p><a href="join.html">Join for more exclusive contents</a></p>
+        </div>
+        <div class="footer_images">
+            <p><img src="images/instagram_logo.webp" alt="instagram link" width="100" height="100"><a href="https://www.instagram.com/6ava9eking?igsh=NWdtZDd4OHYwdmlt&utm_source=qr"></a></p>
+
+            <p><img src="images/github-64.webp" alt="Github account" width="100" height="100"><a href="https://github.com/king6ava9e"></a></p>
+
+            <p><img src="images/linkdln.webp" alt="Linkdln account" width="100" height="100"><a href="http://linkedin.com/in/kingsley-acheampong-748879337"></a></p>
+
+            <p><img src="images/youtube_bst.png" alt="youtube" width="100" height="100"><a href="planner.html"></a></p>
+        </div>
+        <div class="copyright_and_name">
+            <p class="name">Acheampong Kingsley👑</p> 
+
+                <p>
+                    ©<span id="currentyear"></span> SoulSystem|SoulSync 
+                </p>
+                <p id="lastModified"></p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

@@ -74,9 +74,7 @@ async function loadSpotlights() {
 // Call the function when the page loads
 document.addEventListener('DOMContentLoaded', loadSpotlights);
 
-// WEATHER SECTION
-// Grabing the ids
-const hometown = document.getElementById("town");
+ hometown = document.getElementById("town");
 const graphic = document.getElementById("graphic");
 const description = document.getElementById("description");
 const temperature = document.getElementById("temperature");
@@ -89,7 +87,9 @@ const myLongitude = "-1.6188";
 // constructing a full path using template literals
 const myURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLatitude}&lon=${myLongitude}&appid=${myKey}&units=metric`;
 // Trying to grab weather date
-async function apiFetch() {
+async function api// WEATHER SECTION
+// Grabing the ids
+constFetch() {
   try {
     const response = await fetch(myURL);
     if (response.ok) {

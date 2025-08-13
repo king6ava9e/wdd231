@@ -1,6 +1,6 @@
 /************* MEDIA QUERIES FROM BIG SCREENS********/
 @media (min-width: 760px) {
-    header, main, nav, footer {
+     main, nav, footer {
         max-width: 900px;
         margin: 0 auto;
     }
@@ -75,3 +75,96 @@
     }
 
 }
+
+/* ============================= */
+/* TEXT SCALING FOR LARGER SCREENS */
+/* ============================= */
+
+/* Slight increase for small tablets */
+@media (min-width: 480px) {
+  header span {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .about_me,
+  .student_photo_title,
+  .certificate_title {
+    font-size: 1.6rem;
+  }
+
+  .course_details_titles {
+    font-size: 1.3rem;
+  }
+
+  #currentyear,
+  #lastModified {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium tablets and small laptops */
+@media (min-width: 768px) {
+  header span {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .about_me,
+  .student_photo_title,
+  .certificate_title {
+    font-size: 1.8rem;
+  }
+
+  .about_me_paragraph,
+  .lonely_paragraph {
+    font-size: 1rem;
+  }
+
+  .course_details_titles {
+    font-size: 1.5rem;
+  }
+
+  #currentyear,
+  #lastModified {
+    font-size: 1rem;
+  }
+}
+
+/* Large desktops */
+@media (min-width: 1024px) {
+  header span {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .about_me,
+  .student_photo_title,
+  .certificate_title {
+    font-size: 2rem;
+  }
+
+  .about_me_paragraph,
+  .lonely_paragraph {
+    font-size: 1.1rem;
+  }
+
+  .course_details_titles {
+    font-size: 1.6rem;
+  }
+
+  #currentyear,
+  #lastModified {
+    font-size: 1.1rem;
+  }
+}
+
