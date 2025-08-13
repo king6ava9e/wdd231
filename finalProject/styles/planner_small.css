@@ -114,7 +114,7 @@ ul{
     text-decoration: none;
     flex-direction: row;
     color: var(--midnight-navy);
-    border-bottom: 1;
+    border-bottom: 1px;
     
 }
 

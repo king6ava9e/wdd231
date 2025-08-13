@@ -115,7 +115,7 @@ ul{
     text-decoration: none;
     flex-direction: row;
     color: var(--midnight-navy);
-    border-bottom: 1;
+    border-bottom: 1px;
     
 }
 
@@ -405,7 +405,7 @@ footer{
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
   cursor: default;
-  word-break: break-word;
+  word-break: break-all;
 }
 
 .reflection-entry-date {
