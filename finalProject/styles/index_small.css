@@ -566,7 +566,7 @@ main {
 
 }
 
-.weather-section h1{
+.weather-section h4{
     color: var(--golden-sun);
 }
 .weather-widget h2 {

@@ -28,13 +28,13 @@ darkModeButton.addEventListener("click", () => {
 
 // working with the url
 const info = window.location.search;
-console.log(info)
+// console.log(info)
 
 const userData = new URLSearchParams(info);
-console.log(userData);
-console.log(userData.get("email"));
-console.log(userData.get("name"));
-console.log(userData.get("comment"))
+// console.log(userData);
+// console.log(userData.get("email"));
+// console.log(userData.get("name"));
+// console.log(userData.get("comment"))
 
 const thankYou = document.getElementById("thankyouMessage");
 thankYou.innerHTML = `
