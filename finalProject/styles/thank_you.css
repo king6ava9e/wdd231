@@ -266,3 +266,11 @@ footer{
     transition: all 0.3s ease;
 }
 
+
+
+    main{
+      display: flex;
+      flex-direction: column;
+        margin: 0 auto;
+        max-width: 90%;
+    }

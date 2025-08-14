@@ -281,7 +281,9 @@ main {
   margin: 0 auto;
   gap: 2rem;
   grid-template-columns: 1fr;
-  margin: 1rem;
+  padding: 1rem;
+  max-width: 90%;
+
 }
 
 .dashboard-header {
@@ -404,6 +406,7 @@ main {
     margin-bottom: 0.5em;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--golden-sun);
 }
 
 /* Tablet & desktop */
