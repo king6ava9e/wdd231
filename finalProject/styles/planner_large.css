@@ -130,8 +130,7 @@
 
 @media(min-width:800px){
     main{
-        max-width: 1200px;
-         max-width: 1200px;
+        
         display: flex;
         margin-left: auto;
         margin-right: auto;
