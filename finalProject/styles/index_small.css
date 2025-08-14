@@ -281,6 +281,7 @@ main {
   margin: 0 auto;
   gap: 2rem;
   grid-template-columns: 1fr;
+  margin: 1rem;
 }
 
 .dashboard-header {
